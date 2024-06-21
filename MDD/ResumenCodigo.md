@@ -26,3 +26,17 @@ markmap:
 ## Acceso a Domain propertis de una DomainRelationship
 ![Metamodelo](./DomainRelation.png)
 ![Codigo](./CodeDomainRelation.png)
+
+## Inyectar codigo
+- `<#=   #>` Se escribe lo que se diga tal cual en la plantilla
+
+## Salida de codigo en diferentes archivos de salida
+- `<#@ template inherits="Microsoft.VisualStudio.textTemplating.VSHost.ModelingTextTransformation" language="C#" hostspecific="True"#>` Al principio 
+- Definimos una variable para la creación de los ficheros
+ `<# var fileManager=EntityFrameworkTemplateFileManager.Create(this); `
+ Crear el archivo:
+ `fileManager.StartNewFile(nodo.nombre + "txt");`
+ Cerrar proceso de creacion
+ `fileManager.Process() #>`
+
+ 
