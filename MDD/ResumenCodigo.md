@@ -24,8 +24,8 @@ markmap:
 - `foreach( A a in this.B )`
 
 ## Acceso a Domain propertis de una DomainRelationship
-![Metamodelo](./DomainRelation.png)
-![Codigo](./CodeDomainRelation.png)
+![Metamodelo](Fotos/DomainRelation.png)
+![Codigo](Fotos/CodeDomainRelation.png)
 
 ## Inyectar codigo
 - `<#=   #>` Se escribe lo que se diga tal cual en la plantilla
