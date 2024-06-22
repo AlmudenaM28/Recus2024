@@ -40,7 +40,10 @@ markmap:
  `fileManager.Process() #>`
 
 ## Cosas varias
-- Source Fuente
+- Source Fuente  
 - Target Objetivo
-![Ejemplo](Fotos/ST.PNG)
+- `            ------`
+ `Target -----|      |----- Source`
+ `             ------`
+![](Fotos/ST.PNG)
  
