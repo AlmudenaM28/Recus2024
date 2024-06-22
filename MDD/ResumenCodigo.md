@@ -39,4 +39,8 @@ markmap:
  Cerrar proceso de creacion
  `fileManager.Process() #>`
 
+## Cosas varias
+- Source Fuente
+- Target Objetivo
+![Ejemplo](Fotos/ST.PNG)
  
