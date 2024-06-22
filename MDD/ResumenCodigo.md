@@ -44,6 +44,6 @@ markmap:
 - Target Objetivo
 - `            ------`
  `Target -----|      |----- Source`
- `             ------`
+- `            ------`
 ![](Fotos/ST.PNG)
  
