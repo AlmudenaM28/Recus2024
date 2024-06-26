@@ -24,8 +24,8 @@ markmap:
 - `foreach( A a in this.B )`
 
 ## Acceso a Domain propertis de una DomainRelationship
-![Metamodelo](Fotos/DomainRelation.png)
-![Codigo](Fotos/CodeDomainRelation.png)
+![Metamodelo](../Fotos/DomainRelation.png)
+![Codigo](../Fotos/CodeDomainRelation.png)
 
 ## Inyectar codigo
 - `<#=   #>` Se escribe lo que se diga tal cual en la plantilla
@@ -39,4 +39,11 @@ markmap:
  Cerrar proceso de creacion
  `fileManager.Process() #>`
 
+## Cosas varias
+- Source Fuente  
+- Target Objetivo
+- `            ------`
+ `Target -----|      |----- Source`
+
+![](../Fotos/ST.PNG)
  
